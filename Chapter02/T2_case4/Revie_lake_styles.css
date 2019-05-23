@@ -1,0 +1,137 @@
+﻿@charset: "UTF-8";
+@font-face {
+  font-family: Champagne;
+  src: url('cac_champagne.woff') format('woff'),
+       url('cac_champagne.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Dobkin;
+  src:  url('DobkinPlain.woff') format('woff'),
+        url('DobkinPlain.ttf') format('truetype');
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+
+html {
+	background-color: rgba(52, 61, 70, 0.56);
+}
+
+body {
+	background-color: Ivory;
+}
+
+section#leftcol > img {
+	padding-left: 10px;
+}
+
+section#leftcol > h1 {
+	font-family: Champagne;
+	font-size: 4em;
+	text-align: center;
+}
+
+section#leftcol > p {
+	font-size: 1.4em;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+aside {
+	font-size 8em;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+aside#one > h1 {
+	font-family: Champagne;
+	font-size: 2.5em;
+}
+
+aside#one > ul > li {
+	font-size: 1em;
+}
+
+aside#two > h1 {
+	font-family: Champagne;
+	font-size: 2.5em;
+}
+
+aside#two > ul > li {
+	font-size: 1em;
+}
+
+aside#two > h2 {
+	font-size: 1.5em;
+	font-family: Dobkin;
+	margin-bottom: 10px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+header > nav a:hover, header > nav a:active {
+	color: rgb(151, 151, 227);
+	font-family: Dobkin;
+	text-decoration: underline;
+}
+
+header > nav a:link, header > nav a:visited {
+	color: white;
+	background-color: navy;
+	font-family: Dobkin;
+}
+
+#rightcol > nav a {
+	font-family: Champagne, Dobkin, Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+#rightcol > nav a:link, section#rightcol > nav a:visited {
+	color: black;
+}
+
+#rightcol > nav a:hover, section#rightcol > nav a:active {
+	color: white;
+	background-color: rgb(52, 61, 70);
+}
+
+#rightcol > nav > h2 {
+	font-family: Dobkin;
+	text-align: center;
+}
+#rightcol > nav {
+	background-color: rgba(52, 61 , 70, 0.1);
+	text-decoration: none;
+	padding-top: 1px;
+	padding-right: 10px;
+}
+
+blockquote {
+	font-size: 0.8em;
+	color: rgb(52, 61, 70);
+	text-align: center;
+}
+
+footer {
+	background-color: navy;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+}
